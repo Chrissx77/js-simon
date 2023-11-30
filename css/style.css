@@ -4,12 +4,25 @@
     box-sizing: border-box;
 }
 
-#arrayRandom{
+.center{
     text-align: center;
     font-size: 40px;
     padding: 50px;
+
 }
 
 .hidden{
     display: none;
+}
+
+#btn_play{
+    font-size: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    padding: 0 20px;
+}
+
+#score{
+    font-size: 50px;
 }
