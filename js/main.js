@@ -1,8 +1,11 @@
 const arrayNum = [];
+const arrayRand = document.getElementById("arrayRandom")
 
 for(let i = 0; i < 5; i++){
     arrayNum.push(genRandomNum(1, 10));
 }
+arrayRand.innerHTML = arrayNum;
+console.log(arrayNum);
 
 
 
